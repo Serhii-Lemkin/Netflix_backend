@@ -11,4 +11,4 @@ const ListSchema = new mongoose.Schema(
 );
 
 const List = mongoose.model('List', ListSchema);
-export default Content;
+export default List;
