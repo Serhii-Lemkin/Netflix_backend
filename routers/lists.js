@@ -38,14 +38,16 @@ listsRouter.get('/get', isAuth, async (req, res) => {
           { $sample: { size: 10 } },
           { $match: { type: typeQuery, genre: genreQuery } },
         ]);
+        list = await List.populate(list, { path: 'contents' });
       } else {
         list = await List.aggregate([
           { $sample: { size: 10 } },
           { $match: { type: typeQuery } },
         ]);
+        list = await List.populate(list, { path: 'contents' });
       }
     } else {
-      list = await List.aggregate([{ $sample: { size: 10 } }]);
+      list = await List.find().populate('contents').exec();
     }
     res.status(200).json(list);
   } catch (err) {

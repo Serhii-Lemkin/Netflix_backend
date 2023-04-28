@@ -1,6 +1,6 @@
 import express from 'express';
 import expressAsyncHandler from 'express-async-handler';
-import Content from '../Models/MoviesSchema.js';
+import Content from '../Models/ContentSchema.js';
 import { isAuth } from '../utils.js';
 
 const contentRouter = express.Router();
