@@ -110,11 +110,13 @@ contentRouter.get(
           { $match: { isSeries: true } },
           { $sample: { size: 1 } },
         ]);
-      } else {
+      } else if (type === 'movies') {
         content = await Content.aggregate([
           { $match: { isSeries: false } },
           { $sample: { size: 1 } },
         ]);
+      } else {
+        content = await Content.aggregate([{ $sample: { size: 1 } }]);
       }
       res.status(200).json(content[0]);
     } catch (error) {

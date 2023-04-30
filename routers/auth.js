@@ -10,18 +10,21 @@ authRouter.post(
   '/login',
   expressAsyncHandler(async (req, res) => {
     const user = await User.findOne({ email: req.body.email });
+
     if (user) {
       if (bcrypt.compareSync(req.body.password, user.password)) {
+        console.log('success');
         res.send({
           _id: user._id,
           username: user.username,
           email: user.email,
+          isAdmin: user.isAdmin,
           token: generateToken(user),
         });
-        return;
       }
+    } else {
+      res.status(401).send({ message: 'Invalid Password/User' });
     }
-    res.status(401).send({ message: 'Invalid Password/User' });
   })
 );
 
