@@ -17,6 +17,7 @@ authRouter.post(
         res.send({
           _id: user._id,
           username: user.username,
+          profilePicture: user.profilePicture,
           email: user.email,
           isAdmin: user.isAdmin,
           token: generateToken(user),
@@ -36,7 +37,6 @@ authRouter.post(
       email: req.body.email,
       password: bcrypt.hashSync(req.body.password),
     });
-
     const user = await newUser.save();
 
     res.send({

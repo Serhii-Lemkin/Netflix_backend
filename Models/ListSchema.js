@@ -7,7 +7,6 @@ const ListSchema = new mongoose.Schema(
     type: { type: String, required: true },
     genre: { type: String, required: true },
     contents: [{ type: Schema.Types.ObjectId, ref: 'Content' }],
-    content: { type: Array, required: true },
   },
   { timestamps: true }
 );
