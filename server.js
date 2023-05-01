@@ -6,6 +6,7 @@ import authRouter from './routers/auth.js';
 import usersRouter from './routers/users.js';
 import contentRouter from './routers/content.js';
 import listsRouter from './routers/lists.js';
+import seedRouter from './routers/seedRoutes.js';
 
 dotenv.config();
 const PORT = process.env.PORT || 5000;
@@ -19,6 +20,7 @@ app.use('/api/v1/auth', authRouter);
 app.use('/api/v1/users', usersRouter);
 app.use('/api/v1/content', contentRouter);
 app.use('/api/v1/lists', listsRouter);
+app.use('/api/seed', seedRouter);
 
 mongoose
   .connect(process.env.MONGO_DB_URI)
