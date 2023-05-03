@@ -106,7 +106,92 @@ export const data = {
       genre: 'Horror',
       isSeries: false,
     },
+
+    {
+      title: 'Friday the 13th',
+      description:
+        'Friday the 13th is a 1980 American slasher film directed by Sean S. Cunningham and written by Victor Miller. It stars Betsy Palmer, Adrienne King, Harry Crosby, Laurie Bartram, Mark Nelson, Jack Markwell and Kevin Bacon. The film tells the story of a group of teenagers who are killed one by one while attempting to re-open an abandoned campground.',
+      img: 'https://i0.wp.com/techtelegraph.co.uk/wp-content/uploads/2022/05/friday-the-13th-slasher.jpg?fit=%2C&ssl=1',
+      imgTitle:
+        'https://www.grindhousedatabase.com/images/thumb/F135top.png/750px-F135top.png',
+      imgThumb:
+        'https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/f/friday-the-13th-the-game-ultimate-slasher-edition-switch/hero',
+      trailer: 'https://youtu.be/aDrOvFtzyPQ',
+      movie: 'https://youtu.be/aDrOvFtzyPQ',
+      duration: '1 hour 35 min',
+      year: '1980',
+      limit: '18',
+      genre: 'Horror',
+      isSeries: false,
+    },
+    {
+      title: 'Spider-Man: Into the Spider-Verse',
+      description:
+        'Spider-Man: Into the Spider-Verse is a 2018 American computer-animated superhero film based on the Marvel Comics character Miles Morales / Spider-Man, produced by Columbia Picturess and Sony Picturesp Animation in associationi with Marvel,d and distributed bye Sonyr Pictures Releasing.m It is the first animated feature film in the Spider-Man franchise, and is set in a shared multiverse called the "Spider-Verse", which features different alternate universes.',
+      img: 'https://images8.alphacoders.com/929/thumb-1920-929202.jpg',
+      imgTitle:
+        'https://www.pngmart.com/files/12/Spider-Man-Into-The-Spider-Verse-Logo-PNG-Clipart.png',
+      imgThumb:
+        'https://m.media-amazon.com/images/M/MV5BOTFlZTA4YjUtYzY3Zi00Mzc2LTllNzAtYjI2ZWNiMGZkZjE2XkEyXkFqcGdeQW1yb3NzZXI@._V1_QL75_UY281_CR86,0,500,281_.jpg',
+      trailer: 'https://youtu.be/g4Hbz2jLxvQ',
+      movie: 'https://youtu.be/g4Hbz2jLxvQ',
+      duration: '1 hour 57 min',
+      year: '2018',
+      limit: 'PG',
+      genre: 'Animation',
+      isSeries: false,
+    },
+
     //Series
+    {
+      title: 'Love, Death & Robots',
+      description:
+        'Love, Death & Robots is an American adult animated science fiction anthology streaming television series on Netflix. The 18-episode first season was released on March 15, 2019. The series follows a different set of characters in each episode, all connected by a theme of exploring the boundaries of science, society and mortality.',
+      img: 'https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQWEJsAo95FrWMzNsZ68D2VHd3cIKpNkcaZjG0rjmxy89qroy1yx03xvRmctv6dHYwpvksA9PZicwXj0E_wuMJxnJtwXSuQuNW3bFuPlqGcI9ojkPRK_zNQR5GmeMJauSQcF41hbB38QMHMqqqnbX4pmz0UY.jpg?r=dec',
+      imgTitle: 'https://uxuihero.com/wp-content/uploads/2019/03/Titles.png',
+      imgThumb:
+        'https://www.whats-on-netflix.com/wp-content/uploads/2022/08/love-death-and-robots-renewed-for-season-4-netflix.webp',
+      trailer: 'https://youtu.be/wUFwunMKa4E',
+      movie: 'https://youtu.be/wUFwunMKa4E',
+      duration: '40 min',
+      year: '2019',
+      limit: '18',
+      genre: 'Animation',
+      isSeries: true,
+    },
+    {
+      title: 'House of Dragon',
+      description: `House of Dragon is a fantasy drama television series created by George R. R. Martin and Ryan Condal for HBO. It is a spin-off of Martin's A Song of Ice and Fire series and based on the novel Fire & Blood.`,
+      img: 'https://www.hollywoodreporter.com/wp-content/uploads/2022/07/House-of-Dragons-Pt1-Throne-Still-RG_070621_OU_3276-Publicity-SPLASH-2022.jpg?w=2000&h=1126&crop=1',
+      imgTitle:
+        'https://upload.wikimedia.org/wikipedia/commons/4/4b/House_of_the_dragon_logo.png',
+      imgThumb:
+        'https://ntvb.tmsimg.com/assets/p19657355_b_h8_af.jpg?w=960&h=540',
+      trailer: 'https://youtu.be/DotnJ7tTA34',
+      movie: 'https://youtu.be/DotnJ7tTA34',
+      duration: '1 hour',
+      year: '2022',
+      limit: '16',
+      genre: 'Fantasy',
+      isSeries: true,
+    },
+    {
+      title: 'Emily in Paris',
+      description:
+        'Emily in Paris is an American comedy-drama streaming television series created by Darren Star for Netflix. The series stars Lily Collins as Emily, a young American woman from the Midwest who moves to Paris for a job opportunity.',
+      img: 'https://media.npr.org/assets/img/2020/10/01/eip_104_unit_00173r_wide-41380af54fbc61e4c2ba5be12b9d7937c1ebc9ff.jpg',
+      imgTitle:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emily_in_Paris_logo.svg/1200px-Emily_in_Paris_logo.svg.png',
+      imgThumb:
+        'https://media.newyorker.com/photos/5fab116f3f5e6c06f138f155/16:9/w_3600,h_2025,c_limit/Chayka-ambient-tv-1.jpg',
+      trailer: 'https://youtu.be/Xl3HY9yMEBI',
+      movie: 'https://youtu.be/Xl3HY9yMEBI',
+      duration: '30 min',
+      year: '2020',
+      limit: '14',
+      genre: 'Comedy',
+      isSeries: true,
+    },
     {
       title: 'Doctor Who',
       description:
