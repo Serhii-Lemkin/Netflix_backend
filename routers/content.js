@@ -20,6 +20,12 @@ contentRouter.get(
   })
 );
 
+contentRouter.get('/search', isAuth, expressAsyncHandler(async (req, res) => {
+  const query = req.params.query;
+  const genre = req.query.genre;
+  res.send("got ya!")
+}));
+
 //create
 
 contentRouter.post(
