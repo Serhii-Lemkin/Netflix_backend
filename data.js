@@ -10,19 +10,19 @@ export const genres = [
 
 export const listMovieNames = [
   'Top picks for Movie',
-  'Comedies for your friend Steve',
+  'Movies for your friend Steve',
   'Kid-Friendly Movies',
-  'Action Thrillers',
-  'Documentaries',
-  'Classic Films',
+  'Action Movies',
+  'Documentariy Movies',
+  'Classic Movies',
 ];
 export const listSeriesNames = [
   'Top Series',
-  'Crime Dramas',
+  'Crime Series',
   'Sci-Fi Series',
-  'Reality TV',
+  'Reality Series',
   'Sitcoms',
-  'Period Dramas',
+  'Period Series',
 ];
 
 export const data = {
@@ -151,7 +151,284 @@ export const data = {
       isSeries: false,
     },
 
+    {
+      title: 'Seven Kings Must Die',
+      description:
+        'Seven Kings Must Die is a 2019 American action-adventure film directed by John Woo and starring Keanu Reeves, Michael Caine, and John Malkovich. The film follows a group of warriors as they attempt to stop a mysterious dark force from destroying the world. The film is set in a fantasy universe, and was released in the United States on March 15, 2019.',
+      img: 'https://www.denofgeek.com/wp-content/uploads/2023/04/The-Last-Kingdom-Seven-Kings-Must-Die.jpg?fit=1200%2C675',
+      imgTitle:
+        'https://dnm.nflximg.net/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABbPGVhhNiv-uNFQF4_4epf7cHyQ1ZTByPKz2ESVU0jcMoxjjyaT1veVvour43ALVhE9yoVJ8MdF5M14HhNNTfeBnGkn9j5QKQag.png?r=204',
+      imgThumb:
+        'https://occ-0-769-590.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZKJpdcSuvqwGBxBJNKVRze0JWHe9phJW6L1xaiqvLePPRKhRis-7FHr69URHZIYXqUVus0HIoz_3fLZPQr3VVqGGzRNlDoNkPwp.jpg?r=72d',
+      imgVertical:
+        'https://m.media-amazon.com/images/M/MV5BOTlmNGE0ZGMtMzdkMC00MjQyLWI1ZjgtZTIxODAyNWJlZDFlXkEyXkFqcGdeQXVyNTQ4ODM2NjM@._V1_FMjpg_UX1000_.jpg',
+      trailer: 'https://youtu.be/J2uW5ehHqjc',
+      movie: 'https://youtu.be/J2uW5ehHqjc',
+      duration: '2 hours 10 min',
+      year: '2019',
+      limit: '15',
+      genre: 'Action',
+      isSeries: false,
+    },
+    {
+      title: 'Brave',
+      description:
+        'Brave is a 2012 American 3D computer-animated fantasy comedy-drama adventure film produced by Pixar Animation Studios and released by Walt Disney Pictures. It was directed by Mark Andrews and Brenda Chapman and co-directed by Steve Purcell. The story is by Chapman, with the screenplay by Andrews, Purcell, Chapman and Irene Mecchi.',
+      img: 'https://media.npr.org/assets/img/2012/06/19/b23_10bpub.pub16.170_wide-a5bd92b0ba06a0f7da009e797c51f69bae8ee023.jpg',
+      imgTitle:
+        'https://i.pinimg.com/originals/9e/b2/32/9eb2327de3d6f3a73add59e23ebd0d7f.png',
+      imgThumb:
+        'https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/03/brave-movie.jpg',
+      imgVertical:
+        'https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_.jpg',
+      movie: 'https://youtu.be/TEHWDA_6e3M',
+      trailer: 'https://youtu.be/TEHWDA_6e3M',
+      duration: '1 hour 40 min',
+      year: '2012',
+      limit: '8',
+      genre: 'Animation',
+      isSeries: false,
+    },
+    {
+      title: 'Fight Club',
+      description: `Fight Club is a 1999 American film directed by David Fincher and starring Edward Norton, Brad Pitt, and Helena Bonham Carter. It follows an unnamed narrator who forms an underground fight club with Tyler Durden, a soap maker. The film's supporting cast includes Meat Loaf, Jared Leto, and Eion Bailey. The film's plot is based on the 1996 novel of the same name by Chuck Palahniuk.`,
+      img: 'https://media.newyorker.com/photos/5dbafcc91b4a6700085a7a9b/master/w_2560%2Cc_limit/Baker-FightClub.jpg',
+      imgThumb:
+        'https://www.slantmagazine.com/wp-content/uploads/2009/11/fightclub.jpg',
+      imgVertical:
+        'https://i.etsystatic.com/18242346/r/il/c9908e/2412674268/il_fullxfull.2412674268_1sgm.jpg',
+      imgTitle: 'https://www.pngmart.com/files/22/Fight-Club-PNG-HD.png',
+      trailer: 'https://youtu.be/O1nDozs-LxI',
+      movie: 'https://youtu.be/O1nDozs-LxI',
+      duration: '2 hour 16 min',
+      year: '1999',
+      limit: '18',
+      genre: 'Detective',
+      isSeries: false,
+    },
+
+    {
+      title: 'Scott Pilgrim vs. the World',
+      description:
+        "Scott Pilgrim vs. the World is a 2010 action comedy film co-written, produced, and directed by Edgar Wright, based on the graphic novel series Scott Pilgrim by Bryan Lee O'Malley. It stars Michael Cera as Scott Pilgrim, a slacker musician who must win a competition to get a record deal and battle the seven evil exes of his newest girlfriend Ramona Flowers, played by Mary Elizabeth Winstead.",
+      img: 'https://media.vanityfair.com/photos/5f298aa4ad09aa418d20429f/master/w_2560%2Cc_limit/shutterstock_editorial_5885820am.jpg',
+      imgTitle:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Scott_Pilgrim_vs_the_World_Wordmark.svg/1280px-Scott_Pilgrim_vs_the_World_Wordmark.svg.png',
+      imgThumb: 'https://i.ytimg.com/vi/7wd5KEaOtm4/maxresdefault.jpg',
+      imgVertical:
+        'https://static.metacritic.com/images/products/movies/3/524cfbd8dd5a2c4a96d99d80d70716fc.jpg',
+      trailer: 'https://youtu.be/7wd5KEaOtm4',
+      movie: 'https://youtu.be/7wd5KEaOtm4',
+      duration: '1 hour 52 min',
+      year: '2010',
+      limit: '13',
+      genre: 'Comedy',
+      isSeries: false,
+    },
+    {
+      title: 'Priest',
+      description:
+        'Priest is a 2011 American post-apocalyptic dystopian science fiction action horror film starring Paul Bettany as the title character. The film, directed by Scott Stewart, is loosely based on the Korean comic of the same name by Hyung Min-woo. The film also stars Karl Urban, Cam Gigandet, Maggie Q, Stephen Moyer, Lily Collins, and Brad Dourif.',
+      img: 'https://cdn.kpbs.org/img/photos/2011/05/13/DF-07850.jpg',
+      imgTitle:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Priest-logo.svg/2560px-Priest-logo.svg.png',
+      imgThumb:
+        'https://m.media-amazon.com/images/S/pv-target-images/401ca3e58039de9128b37dabf50ded0f1cd2b2c626e116f8d47d235abdf617b9._UR1920,1080_.jpg',
+      imgVertical:
+        'https://images.moviesanywhere.com/4605e276d787283db68b15bb094dafc5/6168c408-c8ef-4661-9829-3193386f2b59.jpg',
+      trailer: 'https://youtu.be/-VNczhWD2ao',
+      movie: 'https://youtu.be/-VNczhWD2ao',
+      duration: '1 hour 27 min',
+      year: '2011',
+      limit: '18',
+      genre: 'Horror',
+      isSeries: false,
+    },
+    {
+      title: 'Avatar',
+      description:
+        "Avatar is a 2009 American epic science fiction film directed, written, produced, and co-edited by James Cameron, and stars Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium, a room-temperature superconductor. The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora.",
+      img: 'https://images.fanart.tv/fanart/avatar-4fec1d99872da.jpg',
+      imgTitle: 'https://images.fanart.tv/fanart/avatar-51c893f5d905d.png',
+      imgThumb: 'https://images.fanart.tv/fanart/avatar-51745a1364d22.jpg',
+      imgVertical: 'https://images.fanart.tv/fanart/avatar-5270be219592b.jpg',
+      trailer: 'https://youtu.be/CM79GTEm2ps',
+      movie: 'https://youtu.be/CM79GTEm2ps',
+      duration: '2 hours 42 min',
+      year: '2009',
+      limit: '12',
+      genre: 'Fantasy',
+      isSeries: false,
+    },
+    {
+      title: 'The Lord of the Rings: The Fellowship of the Ring',
+      description: `The Lord of the Rings: The Fellowship of the Ring is a 2001 epic fantasy adventure film directed by Peter Jackson, based on the first volume of J. R. R. Tolkien's The Lord of the Rings. The film is the first installment in The Lord of the Rings trilogy and was produced by Barrie M. Osborne, Fran Walsh, and Jackson, and written by Walsh, Philippa Boyens, and Jackson.`,
+      img: 'https://images.fanart.tv/fanart/the-lord-of-the-rings-the-fellowship-of-the-ring-566c2b230dbc8.jpg',
+      imgTitle:
+        'https://images.fanart.tv/fanart/the-lord-of-the-rings-the-fellowship-of-the-ring-5232c108a0b11.png',
+      imgThumb:
+        'https://images.fanart.tv/fanart/the-lord-of-the-rings-the-fellowship-of-the-ring-58647a6dc80e8.jpg',
+      imgVertical:
+        'https://images.fanart.tv/fanart/the-lord-of-the-rings-the-fellowship-of-the-ring-52ca39328f269.jpg',
+      trailer: 'https://youtu.be/aStYWD25fAQ',
+      movie: 'https://youtu.be/aStYWD25fAQ',
+      duration: '2 hours 58 min',
+      year: '2001',
+      limit: '13',
+      genre: 'Fantasy',
+      isSeries: false,
+    },
+    {
+      title: "Harry Potter and the Philosopher's Stone",
+      description:
+        "Harry Potter and the Philosopher's Stone is a 2001 fantasy film directed by Chris Columbus and distributed by Warner Bros. Pictures, based on J.K. Rowling's 1997 novel of the same name.",
+      img: 'https://images.fanart.tv/fanart/harry-potter-and-the-philosophers-stone-5abd8a14183c9.jpg',
+      imgTitle:
+        'https://images.fanart.tv/fanart/harry-potter-and-the-sorcerers-stone-5107731d5ddc9.png',
+      imgThumb:
+        'https://images.fanart.tv/fanart/harry-potter-and-the-sorcerers-stone-51b508340e14a.jpg',
+      imgVertical:
+        'https://images.fanart.tv/fanart/harry-potter-and-the-sorcerers-stone-522431b85fa87.jpg',
+      trailer: 'https://youtu.be/mNgwNXKBEW0',
+      movie: 'https://youtu.be/mNgwNXKBEW0',
+      duration: '2 hours 32 min',
+      year: '2001',
+      limit: 'PG',
+      genre: 'Fantasy',
+      isSeries: false,
+    },
+
     //Series
+    {
+      title: 'Rick and Morty',
+      description: `Rick and Morty is an American adult animated science fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's late-night programming block Adult Swim. The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith, who split their time between domestic family life and interdimensional adventures.`,
+      img: 'https://images.fanart.tv/fanart/rick-and-morty-584c0c323de5b.jpg',
+      imgTitle:
+        'https://images.fanart.tv/fanart/rick-and-morty-57487d936bc9e.png',
+      imgThumb:
+        'https://images.fanart.tv/fanart/rick-and-morty-5a18b278e02da.jpg',
+      imgVertical:
+        'https://images.fanart.tv/fanart/rick-and-morty-587b66b17166c.jpg',
+      trailer: 'https://youtu.be/jerFRSQW9g8',
+      movie: 'https://youtu.be/jerFRSQW9g8',
+      duration: '22 min',
+      year: '2013',
+      limit: '15',
+      genre: 'Animation',
+      isSeries: true,
+    },
+    {
+      title: `The Queen's Gambit`,
+      description:
+        "The Queen's Gambit is a 2020 American drama miniseries created by Scott Frank, based on the 1983 novel of the same name by Walter Tevis. It stars Anya Taylor-Joy as Beth Harmon, a chess prodigy, with Bill Camp, Thomas Brodie-Sangster, Moses Ingram, Harry Melling, Marielle Heller and others. The series revolves around the life of a young chess prodigy, orphan Beth Harmon, who struggles with addiction in a quest to become the greatest chess player in the world.",
+      img: 'https://images.fanart.tv/fanart/the-queens-gambit-5f9ce08e723cb.jpg',
+      imgTitle:
+        'https://images.fanart.tv/fanart/the-queens-gambit-5f909918e4d78.png',
+      imgThumb:
+        'https://images.fanart.tv/fanart/the-queens-gambit-5f9eeb8abe843.jpg',
+      imgVertical:
+        'https://images.fanart.tv/fanart/the-queens-gambit-60f32fddcb9b0.jpg',
+      trailer: 'https://youtu.be/oZn3qSgmLqI',
+      movie: 'https://youtu.be/oZn3qSgmLqI',
+      duration: '50 min',
+      year: '2020',
+      limit: '18',
+      genre: 'Action',
+      isSeries: true,
+    },
+    {
+      title: 'Lie to Me',
+      description:
+        'Lie to Me is an American crime drama television series that originally ran on the Fox network from January 21, 2009, to January 31, 2011. In the show, Dr. Cal Lightman and his colleagues in The Lightman Group accept assignments from third parties (commonly local and federal law enforcement), and assist in investigations, reaching the truth through applied psychology: interpreting microexpressions, through the Facial Action Coding System, and body language.',
+      img: 'https://images.fanart.tv/fanart/lie-to-me-53624b7e36b47.jpg',
+      imgTitle: 'https://images.fanart.tv/fanart/lie-to-me-50667f62b523d.png',
+      imgThumb: 'https://images.fanart.tv/fanart/lie-to-me-5c096765337e7.jpg',
+      imgVertical:
+        'https://images.fanart.tv/fanart/lie-to-me-53624b1cc10a5.jpg',
+      trailer: 'https://youtu.be/Kq6PiXEG9Eg',
+      movie: 'https://youtu.be/Kq6PiXEG9Eg',
+      duration: '42 min',
+      year: '2009-2011',
+      limit: '16',
+      genre: 'Crime Drama',
+      isSeries: true,
+    },
+
+    {
+      title: 'The Last Man on Earth',
+      description:
+        'The Last Man on Earth is an American post-apocalyptic comedy television series created by and starring Will Forte. The series premiered on Fox on March 1, 2015, and the fourth and final season concluded on March 8, 2018. The series follows the adventures of Phil Miller, an average man who becomes the last human being on Earth after a deadly virus spreads throughout the planet.',
+      img: 'https://images.fanart.tv/fanart/the-last-man-on-earth-57f134dc29c53.jpg',
+      imgTitle:
+        'https://images.fanart.tv/fanart/the-last-man-on-earth-56c5fc0826ac9.png',
+      imgThumb:
+        'https://images.fanart.tv/fanart/the-last-man-on-earth-607a3704e6db2.jpg',
+      imgVertical:
+        'https://images.fanart.tv/fanart/the-last-man-on-earth-54f6387c0388d.jpg',
+      trailer: 'https://youtu.be/NUZu331xTFs',
+      movie: 'https://youtu.be/NUZu331xTFs',
+      duration: '30 min',
+      year: '2015 - 2018',
+      limit: '16',
+      genre: 'Comedy',
+      isSeries: true,
+    },
+    {
+      title: 'Death Note',
+      description: `Death Note is a Japanese manga series written by Tsugumi Ohba and illustrated by Takeshi Obata. The story follows Light Yagami, a high school student who discovers a supernatural notebook from a Shinigami named Ryuk that grants its user the ability to kill anyone whose name and face they know. The series centers around Light's attempts to create and rule a world cleansed of evil using the notebook, and the complex conflict between him, his opponents, and the Shinigami.`,
+      img: 'https://m.media-amazon.com/images/M/MV5BZDMxYzBhODAtZDRmZC00Njk1LTkzYjQtNTM5OGQ1YTA1YjUzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg',
+      imgTitle:
+        'https://cdn.shopify.com/s/files/1/0259/7398/1235/collections/Death_Note_Logo.png?v=1587232436',
+      imgThumb:
+        'https://occ-0-3933-41.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWroW6c_lJwQ0ke2cFu_mgNM_01vUETqAt1cne4sjap77CYXvZMPTW2rP9-La6yEz-5bzHu_nSm-4X2Bao79lhocNgJA0l2lfI75BhWTaq1JOQVlGx04pGjd.jpg?r=dac',
+      imgVertical:
+        'https://m.media-amazon.com/images/M/MV5BNjRiNmNjMmMtN2U2Yi00ODgxLTk3OTMtMmI1MTI1NjYyZTEzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg',
+      trailer: 'https://youtu.be/NlJZ-YgAt-c',
+      movie: 'https://youtu.be/NlJZ-YgAt-c',
+      duration: '2 hours 37 min',
+      year: '2006',
+      limit: '16',
+      genre: 'Animation',
+      isSeries: true,
+    },
+    {
+      title: 'Vikings',
+      description:
+        'Vikings is a historical drama television series created and written by Michael Hirst for the History channel. Filmed in Ireland, it premiered on March 3, 2013, in Canada.',
+      img: 'https://wallpapershome.com/images/pages/pic_h/18084.jpg',
+      imgTitle:
+        'https://logos-world.net/wp-content/uploads/2021/11/VIkings-Emblem.png',
+      imgThumb:
+        'https://variety.com/wp-content/uploads/2014/02/vikings-tv-review.jpg',
+      imgVertical:
+        'https://image.tmdb.org/t/p/original/w1SiyVcFQIB1YbeKfT7KBnVMItO.jpg',
+      trailer: 'https://youtu.be/9GgxinPwAGc',
+      movie: 'https://youtu.be/9GgxinPwAGc',
+      duration: '45 min',
+      year: '2013',
+      limit: '18',
+      genre: 'Detective',
+      isSeries: true,
+    },
+    {
+      title: 'Lucifer',
+      description:
+        "Lucifer is an American fantasy police procedural comedy-drama television series developed by Tom Kapinos that premiered on Fox on January 25, 2016. It is based on the DC Comics character created by Neil Gaiman, Sam Kieth, and Mike Dringenberg taken from the comic book series The Sandman, who later became the protagonist of a spin-off comic book series, both published by DC Comics' Vertigo imprint. The series is produced by Jerry Bruckheimer Television, DC Entertainment and Warner Bros. Television.",
+      img: 'https://wallpapershome.com/images/pages/pic_h/9717.jpg',
+      imgTitle:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Lucifer_tv_logo.svg/1280px-Lucifer_tv_logo.svg.png',
+      imgThumb:
+        'https://e3d6fgx2ndy.exactdn.com/wp-content/uploads/2021/09/lucifer-series-6-poster-1628105867-e1632100924788.jpg?strip=all&lossy=1&ssl=1',
+      imgVertical:
+        'https://image.tmdb.org/t/p/original/e6FQvm5jycG9xx1ZWowIYBc3Shn.jpg',
+      trailer: 'https://youtu.be/X4bF_quwNtw',
+      movie: 'https://youtu.be/X4bF_quwNtw',
+      duration: '45 min',
+      year: '2016',
+      limit: '15',
+      genre: 'Comedy',
+      isSeries: true,
+    },
     {
       title: 'Love, Death & Robots',
       description:
@@ -267,13 +544,13 @@ export const data = {
       title: 'Stranger Things',
       description:
         'Stranger Things is an American science fiction horror web television series created, written, and directed by the Duffer Brothers and released on Netflix. Set in the 1980s in the fictional town of Hawkins, Indiana, the season is about the disappearance of Will Byers and the ensuing search for him by his friends, family, and the local authorities.',
-      img: 'https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/8a6a68144592045.628efcd3e77b5.jpg',
+      img: 'https://images.fanart.tv/fanart/stranger-things-5ccf1cdcc82b6.jpg',
       imgTitle:
-        'https://www.pngmart.com/files/13/Stranger-Things-Transparent-Background.png',
+        'https://images.fanart.tv/fanart/stranger-things-57a0cd6a71fc6.png',
       imgThumb:
-        'https://www.superherohype.com/wp-content/uploads/sites/4/2022/05/stranger-things-4-poster-featured.jpg',
+        'https://images.fanart.tv/fanart/stranger-things-5a62665fea007.jpg',
       imgVertical:
-        'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F10%2Fstranger-things-poster-2000.jpg&q=60',
+        'https://images.fanart.tv/fanart/stranger-things-578c9b2cb3497.jpg',
       trailer: 'https://youtu.be/b9EkMc79ZSU',
       movie: 'https://youtu.be/b9EkMc79ZSU',
       duration: '1 hour',
