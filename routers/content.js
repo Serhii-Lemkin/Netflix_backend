@@ -20,11 +20,25 @@ contentRouter.get(
   })
 );
 
-contentRouter.get('/search', isAuth, expressAsyncHandler(async (req, res) => {
-  const query = req.params.query;
-  const genre = req.query.genre;
-  res.send("got ya!")
-}));
+contentRouter.get(
+  '/search',
+  isAuth,
+  expressAsyncHandler(async (req, res) => {
+    const query = req.query.query;
+    const genre = req.query.genre;
+    try {
+      let options = {};
+      if (query) options.title = { $regex: query, $options: 'i' };
+      if (genre) options.genre = genre;
+      const data = await Content.find(options);
+      console.log(genre + ' ' + query);
+
+      res.send(data);
+    } catch (error) {
+      res.status(500).json(error);
+    }
+  })
+);
 
 //create
 

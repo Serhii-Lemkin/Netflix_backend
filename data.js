@@ -47,6 +47,8 @@ export const data = {
         'https://www.pngmart.com/files/22/Inception-PNG-HD-Isolated.png',
       imgThumb:
         'https://collider.com/wp-content/uploads/inception_movie_poster_banner_03.jpg',
+      imgVertical:
+        'https://m.media-amazon.com/images/M/MV5BZGFjOTRiYjgtYjEzMS00ZjQ2LTkzY2YtOGQ0NDI2NTVjOGFmXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_.jpg',
       trailer: 'https://youtu.be/YoHD9XEInc0',
       movie: 'https://youtu.be/YoHD9XEInc0',
       duration: '2 hours 18 min',
@@ -64,6 +66,8 @@ export const data = {
         'https://www.pngmart.com/files/22/The-Dark-Knight-PNG-Photos.png',
       imgThumb:
         'https://preview.redd.it/vedjoch1jv651.jpg?width=640&crop=smart&auto=webp&s=28a95089e9b8352cc163a047fd6f8f6c099cf317',
+      imgVertical:
+        'https://www.hcinema.org.il/wp-content/uploads/2022/03/the-dark-knight-poster-1.jpg',
       trailer: 'https://youtu.be/EXeTwQWrcwY',
       movie: 'https://youtu.be/EXeTwQWrcwY',
       duration: '2 hours 32 min',
@@ -82,6 +86,7 @@ export const data = {
         'https://images.squarespace-cdn.com/content/v1/5bfdc74875f9ee194f3e0add/1596652890102-76FXS415ATRW83ANRXXK/the-revenant-563b02dac00e3.png',
       imgThumb:
         'https://variety.com/wp-content/uploads/2013/07/the-revenant-movie-reivew-2.jpg',
+      imgVertical: 'https://m.media-amazon.com/images/I/A1BjliXNDPL.jpg',
       trailer: 'https://youtu.be/LoebZZ8K5N0',
       movie: 'https://youtu.be/LoebZZ8K5N0',
       duration: '1 hour 15 min',
@@ -98,6 +103,7 @@ export const data = {
       imgTitle:
         'https://occ-0-41-116.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABVe73xzWZ0nvqPp5xT0MDFvr60TBka9yON1uOW-ibDdCwopWsOj0Ii9gSRnS4Av9a3B48zrzG4a5bElE5laoq8ZrQ0DcXgLXG_Stm51JfpNB.png?r=425',
       imgThumb: 'https://ichef.bbci.co.uk/images/ic/640x360/p07rv1xs.jpg',
+      imgVertical: 'https://m.media-amazon.com/images/I/71SH1ZPPIZL.jpg',
       trailer: 'https://youtu.be/F_UxLEqd074',
       movie: 'https://youtu.be/F_UxLEqd074',
       duration: '1 hour 12 min',
@@ -116,6 +122,8 @@ export const data = {
         'https://www.grindhousedatabase.com/images/thumb/F135top.png/750px-F135top.png',
       imgThumb:
         'https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/f/friday-the-13th-the-game-ultimate-slasher-edition-switch/hero',
+      imgVertical:
+        'https://cdn.europosters.eu/image/1300/art-photo/friday-the-13th-blockbuster-i112337.jpg',
       trailer: 'https://youtu.be/aDrOvFtzyPQ',
       movie: 'https://youtu.be/aDrOvFtzyPQ',
       duration: '1 hour 35 min',
@@ -133,11 +141,12 @@ export const data = {
         'https://www.pngmart.com/files/12/Spider-Man-Into-The-Spider-Verse-Logo-PNG-Clipart.png',
       imgThumb:
         'https://m.media-amazon.com/images/M/MV5BOTFlZTA4YjUtYzY3Zi00Mzc2LTllNzAtYjI2ZWNiMGZkZjE2XkEyXkFqcGdeQW1yb3NzZXI@._V1_QL75_UY281_CR86,0,500,281_.jpg',
+      imgVertical: 'https://cdn.marvel.com/content/2x/MilesPoster.jpg',
       trailer: 'https://youtu.be/g4Hbz2jLxvQ',
       movie: 'https://youtu.be/g4Hbz2jLxvQ',
       duration: '1 hour 57 min',
       year: '2018',
-      limit: 'PG',
+      limit: '13',
       genre: 'Animation',
       isSeries: false,
     },
@@ -151,6 +160,8 @@ export const data = {
       imgTitle: 'https://uxuihero.com/wp-content/uploads/2019/03/Titles.png',
       imgThumb:
         'https://www.whats-on-netflix.com/wp-content/uploads/2022/08/love-death-and-robots-renewed-for-season-4-netflix.webp',
+      imgVertical:
+        'https://thefincheranalyst.files.wordpress.com/2022/05/love-death-robots-s3-main-noborder-vertical-27x40-rgb-pre-w5.1.webp',
       trailer: 'https://youtu.be/wUFwunMKa4E',
       movie: 'https://youtu.be/wUFwunMKa4E',
       duration: '40 min',
@@ -167,6 +178,8 @@ export const data = {
         'https://upload.wikimedia.org/wikipedia/commons/4/4b/House_of_the_dragon_logo.png',
       imgThumb:
         'https://ntvb.tmsimg.com/assets/p19657355_b_h8_af.jpg?w=960&h=540',
+      imgVertical:
+        'https://img.posterstore.com/zoom/wb0035-8houseofthedragon-rhaenyratargaryen50x70.jpg',
       trailer: 'https://youtu.be/DotnJ7tTA34',
       movie: 'https://youtu.be/DotnJ7tTA34',
       duration: '1 hour',
@@ -182,6 +195,7 @@ export const data = {
       img: 'https://media.npr.org/assets/img/2020/10/01/eip_104_unit_00173r_wide-41380af54fbc61e4c2ba5be12b9d7937c1ebc9ff.jpg',
       imgTitle:
         'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emily_in_Paris_logo.svg/1200px-Emily_in_Paris_logo.svg.png',
+      imgVertical: 'https://flxt.tmsimg.com/assets/p20738800_b_v13_ae.jpg',
       imgThumb:
         'https://media.newyorker.com/photos/5fab116f3f5e6c06f138f155/16:9/w_3600,h_2025,c_limit/Chayka-ambient-tv-1.jpg',
       trailer: 'https://youtu.be/Xl3HY9yMEBI',
@@ -200,6 +214,8 @@ export const data = {
       imgTitle: 'https://pbs.twimg.com/media/DdkXrGXW0AEK-cQ.png',
       imgThumb:
         'https://image.tmdb.org/t/p/w320_and_h180_bestv2/irTDkbtPQ4aM9YQw1uEevzk5rSz.jpg',
+      imgVertical:
+        'https://image.tmdb.org/t/p/original/jQmM0kRXf5yHD8y5exkLQttkHtX.jpg',
       trailer: 'https://youtu.be/fJtoxieq40o',
       movie: 'https://youtu.be/fJtoxieq40o',
       duration: '45 min',
@@ -218,6 +234,8 @@ export const data = {
         'https://upload.wikimedia.org/wikipedia/commons/b/b5/Logo_Game_of_Thrones.png',
       imgThumb:
         'https://i.insider.com/5cad1c9ce031e8029732e822?width=1200&format=jpeg',
+      imgVertical:
+        'https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_2731,w_1889/https%3A%2F%2Fwinteriscoming.net%2Ffiles%2F2019%2F04%2FGOT-Aftermath.jpeg',
       trailer: 'https://youtu.be/bjqEWgDVPe0',
       movie: 'https://youtu.be/bjqEWgDVPe0',
       duration: '1 hour',
@@ -235,6 +253,8 @@ export const data = {
         'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Grimm_Logo.png/800px-Grimm_Logo.png',
       imgThumb:
         'https://vargiskhan.com/log/wp-content/uploads/2019/01/grimm-series-review.jpg',
+      imgVertical:
+        'https://pics.filmaffinity.com/Grimm_TV_Series-109715380-large.jpg',
       trailer: 'https://youtu.be/2-4xKNZ_gaA',
       movie: 'https://youtu.be/2-4xKNZ_gaA',
       duration: '45 min',
@@ -252,6 +272,8 @@ export const data = {
         'https://www.pngmart.com/files/13/Stranger-Things-Transparent-Background.png',
       imgThumb:
         'https://www.superherohype.com/wp-content/uploads/sites/4/2022/05/stranger-things-4-poster-featured.jpg',
+      imgVertical:
+        'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F10%2Fstranger-things-poster-2000.jpg&q=60',
       trailer: 'https://youtu.be/b9EkMc79ZSU',
       movie: 'https://youtu.be/b9EkMc79ZSU',
       duration: '1 hour',
