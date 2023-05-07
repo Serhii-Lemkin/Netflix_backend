@@ -230,8 +230,7 @@ export const data = {
       description:
         'Priest is a 2011 American post-apocalyptic dystopian science fiction action horror film starring Paul Bettany as the title character. The film, directed by Scott Stewart, is loosely based on the Korean comic of the same name by Hyung Min-woo. The film also stars Karl Urban, Cam Gigandet, Maggie Q, Stephen Moyer, Lily Collins, and Brad Dourif.',
       img: 'https://cdn.kpbs.org/img/photos/2011/05/13/DF-07850.jpg',
-      imgTitle:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Priest-logo.svg/2560px-Priest-logo.svg.png',
+      imgTitle: 'https://images.fanart.tv/fanart/priest-51ded5c2ef023.png',
       imgThumb:
         'https://m.media-amazon.com/images/S/pv-target-images/401ca3e58039de9128b37dabf50ded0f1cd2b2c626e116f8d47d235abdf617b9._UR1920,1080_.jpg',
       imgVertical:
@@ -469,7 +468,7 @@ export const data = {
       title: 'Emily in Paris',
       description:
         'Emily in Paris is an American comedy-drama streaming television series created by Darren Star for Netflix. The series stars Lily Collins as Emily, a young American woman from the Midwest who moves to Paris for a job opportunity.',
-      img: 'https://media.npr.org/assets/img/2020/10/01/eip_104_unit_00173r_wide-41380af54fbc61e4c2ba5be12b9d7937c1ebc9ff.jpg',
+      img: 'https://images.fanart.tv/fanart/emily-in-paris-5f6beef331e06.jpg',
       imgTitle:
         'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emily_in_Paris_logo.svg/1200px-Emily_in_Paris_logo.svg.png',
       imgVertical: 'https://flxt.tmsimg.com/assets/p20738800_b_v13_ae.jpg',
