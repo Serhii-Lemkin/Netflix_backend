@@ -249,7 +249,7 @@ export const data = {
         "Avatar is a 2009 American epic science fiction film directed, written, produced, and co-edited by James Cameron, and stars Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium, a room-temperature superconductor. The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora.",
       img: 'https://images.fanart.tv/fanart/avatar-4fec1d99872da.jpg',
       imgTitle: 'https://images.fanart.tv/fanart/avatar-51c893f5d905d.png',
-      imgThumb: 'https://images.fanart.tv/fanart/avatar-51745a1364d22.jpg',
+      imgThumb: 'https://images.fanart.tv/fanart/avatar-5129337b66cc0.jpg',
       imgVertical: 'https://images.fanart.tv/fanart/avatar-5270be219592b.jpg',
       trailer: 'https://youtu.be/CM79GTEm2ps',
       movie: 'https://youtu.be/CM79GTEm2ps',
