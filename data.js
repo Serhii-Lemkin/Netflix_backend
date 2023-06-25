@@ -34,6 +34,7 @@ export const data = {
       password: bcrypt.hashSync('12345'),
       isAdmin: true,
       profilePicture: 'https://i.pravatar.cc/300',
+      myList: [],
     },
   ],
   content: [
@@ -226,6 +227,24 @@ export const data = {
       isSeries: false,
     },
     {
+      title: 'Shrek',
+      description:
+        'Shrek is an animated comedy film about a grumpy ogre named Shrek who embarks on a quest to rescue a princess and reclaim his swamp. With the help of a talkative donkey, Shrek encounters humorous challenges and unexpected friendships along the way. The movie cleverly subverts fairytale tropes while delivering a heartwarming message about self-acceptance and the importance of looking beyond appearances.',
+      img: 'https://images.alphacoders.com/519/thumb-1920-519107.jpg',
+      imgTitle: 'https://pngimg.com/d/shrek_PNG24.png',
+      imgThumb:
+        'https://img2.hulu.com/user/v3/artwork/36c01be2-e036-46d9-9da2-522bfd12b54f?base_image_bucket_name=image_manager&base_image=42eab101-f1c7-4661-9c4e-b6d2a2dfea41&region=US&format=jpeg&size=952x536',
+      imgVertical:
+        'https://www.themoviedb.org/t/p/w500/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg',
+      trailer: 'https://youtu.be/CwXOrWvPBPk',
+      movie: 'https://youtu.be/CwXOrWvPBPk',
+      duration: '1 hour 32 min',
+      year: '2001',
+      limit: '13',
+      genre: 'Animation',
+      isSeries: false,
+    },
+    {
       title: 'Priest',
       description:
         'Priest is a 2011 American post-apocalyptic dystopian science fiction action horror film starring Paul Bettany as the title character. The film, directed by Scott Stewart, is loosely based on the Korean comic of the same name by Hyung Min-woo. The film also stars Karl Urban, Cam Gigandet, Maggie Q, Stephen Moyer, Lily Collins, and Brad Dourif.',
@@ -247,10 +266,13 @@ export const data = {
       title: 'Avatar',
       description:
         "Avatar is a 2009 American epic science fiction film directed, written, produced, and co-edited by James Cameron, and stars Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium, a room-temperature superconductor. The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora.",
-      img: 'https://images.fanart.tv/fanart/avatar-4fec1d99872da.jpg',
-      imgTitle: 'https://images.fanart.tv/fanart/avatar-51c893f5d905d.png',
-      imgThumb: 'https://images.fanart.tv/fanart/avatar-5129337b66cc0.jpg',
-      imgVertical: 'https://images.fanart.tv/fanart/avatar-5270be219592b.jpg',
+      img: 'https://variety.com/wp-content/uploads/2022/12/Main-thumb.jpg',
+      imgTitle:
+        'https://www.pngmart.com/files/15/Avatar-Logo-Transparent-PNG.png',
+      imgThumb:
+        'https://c4.wallpaperflare.com/wallpaper/810/33/235/movies-avatar-1680x1050-entertainment-movies-hd-art-wallpaper-preview.jpg',
+      imgVertical:
+        'https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_.jpg',
       trailer: 'https://youtu.be/CM79GTEm2ps',
       movie: 'https://youtu.be/CM79GTEm2ps',
       duration: '2 hours 42 min',
@@ -262,13 +284,13 @@ export const data = {
     {
       title: 'The Lord of the Rings: The Fellowship of the Ring',
       description: `The Lord of the Rings: The Fellowship of the Ring is a 2001 epic fantasy adventure film directed by Peter Jackson, based on the first volume of J. R. R. Tolkien's The Lord of the Rings. The film is the first installment in The Lord of the Rings trilogy and was produced by Barrie M. Osborne, Fran Walsh, and Jackson, and written by Walsh, Philippa Boyens, and Jackson.`,
-      img: 'https://images.fanart.tv/fanart/the-lord-of-the-rings-the-fellowship-of-the-ring-566c2b230dbc8.jpg',
+      img: 'https://d1nslcd7m2225b.cloudfront.net/Pictures/1024x536/4/7/7/1252477_fellowship.jpg',
       imgTitle:
-        'https://images.fanart.tv/fanart/the-lord-of-the-rings-the-fellowship-of-the-ring-5232c108a0b11.png',
+        'https://www.freepnglogos.com/uploads/lord-of-the-rings-png-logo/lord-of-the-rings-png-title-logo-1.png',
       imgThumb:
-        'https://images.fanart.tv/fanart/the-lord-of-the-rings-the-fellowship-of-the-ring-58647a6dc80e8.jpg',
+        'https://media.citizen.co.za/wp-content/uploads/2023/02/new-lord-of-the-rings-films-announced.jpg',
       imgVertical:
-        'https://images.fanart.tv/fanart/the-lord-of-the-rings-the-fellowship-of-the-ring-52ca39328f269.jpg',
+        'https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg',
       trailer: 'https://youtu.be/aStYWD25fAQ',
       movie: 'https://youtu.be/aStYWD25fAQ',
       duration: '2 hours 58 min',
@@ -281,13 +303,11 @@ export const data = {
       title: "Harry Potter and the Philosopher's Stone",
       description:
         "Harry Potter and the Philosopher's Stone is a 2001 fantasy film directed by Chris Columbus and distributed by Warner Bros. Pictures, based on J.K. Rowling's 1997 novel of the same name.",
-      img: 'https://images.fanart.tv/fanart/harry-potter-and-the-philosophers-stone-5abd8a14183c9.jpg',
+      img: 'https://wallpapercave.com/wp/wp4879828.jpg',
       imgTitle:
-        'https://images.fanart.tv/fanart/harry-potter-and-the-sorcerers-stone-5107731d5ddc9.png',
-      imgThumb:
-        'https://images.fanart.tv/fanart/harry-potter-and-the-sorcerers-stone-51b508340e14a.jpg',
-      imgVertical:
-        'https://images.fanart.tv/fanart/harry-potter-and-the-sorcerers-stone-522431b85fa87.jpg',
+        'https://i.ibb.co/qRs0ZsR/440-4406326-harry-potter-philosophers-stone-logo-hd-png-download-removebg-preview.png',
+      imgThumb: 'https://images8.alphacoders.com/113/1130049.jpg',
+      imgVertical: 'https://wallpapercave.com/wp/wp4879829.jpg',
       trailer: 'https://youtu.be/mNgwNXKBEW0',
       movie: 'https://youtu.be/mNgwNXKBEW0',
       duration: '2 hours 32 min',
@@ -301,13 +321,13 @@ export const data = {
     {
       title: 'Rick and Morty',
       description: `Rick and Morty is an American adult animated science fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's late-night programming block Adult Swim. The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith, who split their time between domestic family life and interdimensional adventures.`,
-      img: 'https://images.fanart.tv/fanart/rick-and-morty-584c0c323de5b.jpg',
+      img: 'https://ichef.bbci.co.uk/news/976/cpsprodpb/40D9/production/_128410661_rick-and-morty-s4-image.jpg',
       imgTitle:
-        'https://images.fanart.tv/fanart/rick-and-morty-57487d936bc9e.png',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/1200px-Rick_and_Morty.svg.png',
       imgThumb:
-        'https://images.fanart.tv/fanart/rick-and-morty-5a18b278e02da.jpg',
+        'https://thepopcornuniverse.in/wp-content/uploads/2021/09/Rick-Morty-Thumbnail.jpg',
       imgVertical:
-        'https://images.fanart.tv/fanart/rick-and-morty-587b66b17166c.jpg',
+        'https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg',
       trailer: 'https://youtu.be/jerFRSQW9g8',
       movie: 'https://youtu.be/jerFRSQW9g8',
       duration: '22 min',
@@ -320,13 +340,13 @@ export const data = {
       title: `The Queen's Gambit`,
       description:
         "The Queen's Gambit is a 2020 American drama miniseries created by Scott Frank, based on the 1983 novel of the same name by Walter Tevis. It stars Anya Taylor-Joy as Beth Harmon, a chess prodigy, with Bill Camp, Thomas Brodie-Sangster, Moses Ingram, Harry Melling, Marielle Heller and others. The series revolves around the life of a young chess prodigy, orphan Beth Harmon, who struggles with addiction in a quest to become the greatest chess player in the world.",
-      img: 'https://images.fanart.tv/fanart/the-queens-gambit-5f9ce08e723cb.jpg',
+      img: 'https://www.whats-on-netflix.com/wp-content/uploads/2023/01/the-queens-gambit-2-netflix-jpg.webp',
       imgTitle:
-        'https://images.fanart.tv/fanart/the-queens-gambit-5f909918e4d78.png',
+        'https://assets.fanart.tv/fanart/tv/387115/hdtvlogo/the-queens-gambit-5f909918e4d78.png',
       imgThumb:
-        'https://images.fanart.tv/fanart/the-queens-gambit-5f9eeb8abe843.jpg',
+        'https://www.jesuithighschool.org/sites/main/files/imagecache/lightbox/main-images/sl__queens_gambit__bradenacosta24.jpg',
       imgVertical:
-        'https://images.fanart.tv/fanart/the-queens-gambit-60f32fddcb9b0.jpg',
+        'https://1.bp.blogspot.com/-DB4YRE95A9I/YZnN1oTXSDI/AAAAAAAAGW4/Zd2TqAPG51oGmEBgqkrZBqa---Fb0YGuQCNcBGAsYHQ/s1536/Gambito-de-Dama.jpg',
       trailer: 'https://youtu.be/oZn3qSgmLqI',
       movie: 'https://youtu.be/oZn3qSgmLqI',
       duration: '50 min',
@@ -339,11 +359,13 @@ export const data = {
       title: 'Lie to Me',
       description:
         'Lie to Me is an American crime drama television series that originally ran on the Fox network from January 21, 2009, to January 31, 2011. In the show, Dr. Cal Lightman and his colleagues in The Lightman Group accept assignments from third parties (commonly local and federal law enforcement), and assist in investigations, reaching the truth through applied psychology: interpreting microexpressions, through the Facial Action Coding System, and body language.',
-      img: 'https://images.fanart.tv/fanart/lie-to-me-53624b7e36b47.jpg',
-      imgTitle: 'https://images.fanart.tv/fanart/lie-to-me-50667f62b523d.png',
-      imgThumb: 'https://images.fanart.tv/fanart/lie-to-me-5c096765337e7.jpg',
+      img: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/a11797b97d17d50fb3555da99494273c6c404c5f074d0b5026b71aa169aae341._RI_TTW_.jpg',
+      imgTitle:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lie_to_Me.svg/1200px-Lie_to_Me.svg.png',
+      imgThumb:
+        'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7F8521F95782E1E20034600A6152387CDBDA73F28773503C71336081780CD589/scale?width=1200&aspectRatio=1.78&format=jpeg',
       imgVertical:
-        'https://images.fanart.tv/fanart/lie-to-me-53624b1cc10a5.jpg',
+        'https://m.media-amazon.com/images/I/81rE-kEY-ZL._AC_UF1000,1000_QL80_.jpg',
       trailer: 'https://youtu.be/Kq6PiXEG9Eg',
       movie: 'https://youtu.be/Kq6PiXEG9Eg',
       duration: '42 min',
@@ -357,13 +379,12 @@ export const data = {
       title: 'The Last Man on Earth',
       description:
         'The Last Man on Earth is an American post-apocalyptic comedy television series created by and starring Will Forte. The series premiered on Fox on March 1, 2015, and the fourth and final season concluded on March 8, 2018. The series follows the adventures of Phil Miller, an average man who becomes the last human being on Earth after a deadly virus spreads throughout the planet.',
-      img: 'https://images.fanart.tv/fanart/the-last-man-on-earth-57f134dc29c53.jpg',
+      img: 'https://www.indiewire.com/wp-content/uploads/2015/05/the_last_man_on_earth_cast.jpg',
       imgTitle:
-        'https://images.fanart.tv/fanart/the-last-man-on-earth-56c5fc0826ac9.png',
+        'https://assets.fanart.tv/fanart/movies/21159/hdmovielogo/the-last-man-on-earth-5474a0fc40b53.png',
       imgThumb:
-        'https://images.fanart.tv/fanart/the-last-man-on-earth-607a3704e6db2.jpg',
-      imgVertical:
-        'https://images.fanart.tv/fanart/the-last-man-on-earth-54f6387c0388d.jpg',
+        'https://ntvb.tmsimg.com/assets/p10775022_b_h10_aa.jpg?w=1280&h=720',
+      imgVertical: 'https://flxt.tmsimg.com/assets/p10775022_b_v8_aa.jpg',
       trailer: 'https://youtu.be/NUZu331xTFs',
       movie: 'https://youtu.be/NUZu331xTFs',
       duration: '30 min',
@@ -530,7 +551,7 @@ export const data = {
       imgThumb:
         'https://vargiskhan.com/log/wp-content/uploads/2019/01/grimm-series-review.jpg',
       imgVertical:
-        'https://pics.filmaffinity.com/Grimm_TV_Series-109715380-large.jpg',
+        'https://m.media-amazon.com/images/M/MV5BMTkyODg2MzQwMV5BMl5BanBnXkFtZTgwNTA2MjE1MDI@._V1_FMjpg_UX1000_.jpg',
       trailer: 'https://youtu.be/2-4xKNZ_gaA',
       movie: 'https://youtu.be/2-4xKNZ_gaA',
       duration: '45 min',
@@ -543,13 +564,13 @@ export const data = {
       title: 'Stranger Things',
       description:
         'Stranger Things is an American science fiction horror web television series created, written, and directed by the Duffer Brothers and released on Netflix. Set in the 1980s in the fictional town of Hawkins, Indiana, the season is about the disappearance of Will Byers and the ensuing search for him by his friends, family, and the local authorities.',
-      img: 'https://images.fanart.tv/fanart/stranger-things-5ccf1cdcc82b6.jpg',
+      img: 'https://images.popbuzz.com/images/60844?width=1200&crop=16_9&signature=2u4eQjFlxR6DiS1ta_ezaYrUHEo=',
       imgTitle:
-        'https://images.fanart.tv/fanart/stranger-things-57a0cd6a71fc6.png',
+        'https://logos-world.net/wp-content/uploads/2020/05/Stranger-Things-Logo.png',
       imgThumb:
-        'https://images.fanart.tv/fanart/stranger-things-5a62665fea007.jpg',
+        'https://occ.a.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABV5lteI3eHet1nPBQKC_uEChESjqQfYpRwMWLR0wULt52odnxQtG69JNFDj9N4maZWJWDFZyi2sc1YzZ8mKE4Ajmt7Btva1CnWagGbYXVMp3t4OETM4LwiD70dHu-qWUbBAesQ.jpg?r=c68',
       imgVertical:
-        'https://images.fanart.tv/fanart/stranger-things-578c9b2cb3497.jpg',
+        'https://resizing.flixster.com/0xxuABVVuzJrUT130WFHKE-irEg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vNzUyMTFhOTktZTU4Ni00ODkyLWJlYjQtZTgxYTllZmU2OGM0LmpwZw==',
       trailer: 'https://youtu.be/b9EkMc79ZSU',
       movie: 'https://youtu.be/b9EkMc79ZSU',
       duration: '1 hour',
