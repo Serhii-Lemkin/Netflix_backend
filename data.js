@@ -489,7 +489,7 @@ export const data = {
       title: 'Emily in Paris',
       description:
         'Emily in Paris is an American comedy-drama streaming television series created by Darren Star for Netflix. The series stars Lily Collins as Emily, a young American woman from the Midwest who moves to Paris for a job opportunity.',
-      img: 'https://images.fanart.tv/fanart/emily-in-paris-5f6beef331e06.jpg',
+      img: 'https://www.whats-on-netflix.com/wp-content/uploads/2022/09/emily-in-paris-season-3-netflix-everything-we-know-so-far-jpg.webp',
       imgTitle:
         'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emily_in_Paris_logo.svg/1200px-Emily_in_Paris_logo.svg.png',
       imgVertical: 'https://flxt.tmsimg.com/assets/p20738800_b_v13_ae.jpg',

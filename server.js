@@ -1,5 +1,4 @@
 import express from 'express';
-import dotenv from 'dotenv';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import authRouter from './routers/auth.js';
@@ -7,6 +6,7 @@ import usersRouter from './routers/users.js';
 import contentRouter from './routers/content.js';
 import listsRouter from './routers/lists.js';
 import seedRouter from './routers/seedRoutes.js';
+import dotenv from 'dotenv';
 
 dotenv.config();
 const PORT = process.env.PORT || 5000;
