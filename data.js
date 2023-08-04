@@ -7,7 +7,6 @@ export const genres = [
   'Horror',
   'Animation',
 ];
-
 export const listMovieNames = [
   'Top picks for Movie',
   'Movies for your friend Steve',
@@ -34,7 +33,7 @@ export const data = {
       password: bcrypt.hashSync('12345'),
       isAdmin: true,
       profilePicture: 'https://i.pravatar.cc/300',
-      myList: [],
+      //myList: [],
     },
   ],
   content: [

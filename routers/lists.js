@@ -1,6 +1,7 @@
 import express from 'express';
 import expressAsyncHandler from 'express-async-handler';
 import List from '../Models/ListSchema.js';
+import Content from '../Models/ContentSchema.js';
 import { isAuth } from '../utils.js';
 
 const listsRouter = express.Router();
@@ -47,7 +48,9 @@ listsRouter.get('/get', isAuth, async (req, res) => {
         list = await List.populate(list, { path: 'contents' });
       }
     } else {
-      list = await List.find().populate('contents').exec();
+      list = await List.find({ type: { $in: ['series', 'movies'] } })
+        .populate('contents')
+        .exec();
     }
     res.status(200).json(list);
   } catch (err) {
@@ -70,6 +73,63 @@ listsRouter.delete(
       }
     } else {
       res.status(403).json('You are not allowed!');
+    }
+  })
+);
+
+listsRouter.get(
+  '/savetomylist/:id',
+  isAuth,
+  expressAsyncHandler(async (req, res) => {
+    try {
+      let list = await List.findOne({ type: { $eq: req.user._id } });
+      const newContent = await Content.findById(req.params.id);
+      if (!list) {
+        list = new List({
+          title: `${req.user.username}'s List`,
+          type: req.user._id,
+          genre: 'all',
+          contents: [],
+        });
+      }
+      var found = list.contents.indexOf(newContent._id);
+      console.log('found Item: ' + found);
+      if (found !== -1) {
+      } else {
+        list.contents.push(newContent._id);
+      }
+
+      await list.save();
+
+      list = await List.populate(list, { path: 'contents' });
+
+      res.status(200).json(list);
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  })
+);
+
+listsRouter.get(
+  '/removefrommylist/:id',
+  isAuth,
+  expressAsyncHandler(async (req, res) => {
+    try {
+      let list = await List.findOne({ type: { $eq: req.user._id } });
+      const contentToRemove = await Content.findById(req.params.id);
+      console.log(list.contents);
+      console.log(contentToRemove._id);
+      var found = list.contents.indexOf(contentToRemove._id);
+      console.log(found);
+      if (found !== -1) {
+        list.contents.splice(found, 1);
+      }
+      await list.save();
+      console.log(list.contents);
+      list = await List.populate(list, { path: 'contents' });
+      res.status(200).json(list);
+    } catch (err) {
+      res.status(500).json(err);
     }
   })
 );

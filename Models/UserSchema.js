@@ -11,7 +11,6 @@ const UserSchema = new mongoose.Schema(
       default: 'https://i.pravatar.cc/300',
       required: true,
     },
-
     isAdmin: { type: Boolean, default: false, required: true },
   },
   { timestamps: true }
