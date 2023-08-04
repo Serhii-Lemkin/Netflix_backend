@@ -9,14 +9,9 @@ const authRouter = express.Router();
 authRouter.post(
   '/login',
   expressAsyncHandler(async (req, res) => {
-    console.log('login');
     const user = await User.findOne({ email: req.body.email });
-    console.log(user);
-    console.log(req.body.password);
     if (user) {
-      console.log('in if');
       if (bcrypt.compareSync(req.body.password, user.password)) {
-        console.log('success');
         res.send({
           _id: user._id,
           username: user.username,
@@ -26,12 +21,9 @@ authRouter.post(
           token: generateToken(user),
         });
       } else {
-        console.log('wrongpassword');
         res.status(401).send({ message: 'Invalid Password/User' });
       }
     } else {
-      console.log('Invalid Password/User');
-
       res.status(401).send({ message: 'Invalid Password/User' });
     }
   })
